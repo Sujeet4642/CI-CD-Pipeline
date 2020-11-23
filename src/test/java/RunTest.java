@@ -16,4 +16,9 @@ public class RunTest {
 		 Assert.assertEquals("the assertion is failed", true, true);
 		 
 	}
+	@Test
+	public void t_03_test_case_is_failed() {
+		 System.out.println("This test case is supposed to be failed.");
+		 Assert.assertEquals("the assertion is failed", true, false);
+	}
 }
